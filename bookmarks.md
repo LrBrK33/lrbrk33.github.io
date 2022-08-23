@@ -1,3 +1,416 @@
 layout: page
 title: "Bookmarks"
 permalink: https://lrbrk33.github.io/bookmarks
+
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmarks</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <!-- panel-(success,default,primary,info,warning,danger) -->
+  <body style="margin: 12px">
+    <div class="row">
+      <!-- Column 1 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column1" role="tablist" aria-multiselectable="true">
+          <div id="general" class="panel panel-primary">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column1">
+                General
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://mail.google.com/mail/u/0/#inbox">Gmail - Storable</a></dt>
+                  <dt><a href="https://drive.google.com/drive/u/0/my-drive">Drive - Storable</a></dt>
+                  <dt><a href="https://mail.google.com/mail/u/1/#inbox">Gmail - Work</a></dt>
+                  <dt><a href="https://drive.google.com/drive/u/1/my-drive">Drive - Workd</a></dt>
+                  <dt><a href="https://keep.google.com/u/0">Keep</a></dt>
+                  <dt><a href="https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1">Calendar</a></dt>
+                  <dt><a href="https://trello.com/">Trello</a></dt>
+                  <dt><a href="https://medium.com/">Medium</a></dt>
+                  <dt><a href="https://news.google.com/nwshp?hl=en&tab=rn&authuser=0">News</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="hr_n_things" class="panel panel-primary">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column1">
+                HR n Things
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt>
+                    <a href="https://workforcenow.adp.com/theme/index.html">ADP</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://my.adp.com/static/redbox/#/dashboard">MyADP</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://www.mykplan.adp.com/ParticipantSecure_Net/participant/home">401k</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://my.healthequity.com/Refresh/Dashboard">HSA</a>
+                  </dt>
+                  <dt><a href="https://storable.latticehq.com/">Lattice</a></dt>
+                  <dt><a href="https://storable.bucketlist.org/app/#/">Bucketlist</a></dt>
+                  <dt><a href="https://app.getworkify.com/my-workify">Workify</a></dt>
+                  <dt><a href="https://storable.myabsorb.com/#/dashboard">LMS (linkedin)</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/Warehouse/overview">The Warehouse</a></dt>
+                  <dt><a href="https://storable.litmos.com/home/dashboard">Litmos Training</a></dt>
+                  <dt><a href="https://training.knowbe4.com/ui/login">KnowBe4</a></dt>
+                  <dt><a href="https://compliance.fifoundry.net/storable/student/dashboard#/">Everfi</a></dt>
+                  <dt><a href="https://app4.greenhouse.io/dashboard">Greenhouse Referrals</a></dt>
+                  <dt><a href="https://www.concursolutions.com/home.asp">Concur Travel</a></dt>
+                  <dt><a href="https://storable.pingboard.com/org_chart?center=25954976">Pingboard</a></dt>
+                </p>
+                  <dt><a href="https://docs.google.com/drawings/d/1OYq1sWQCmja2mSzpbmbguqhLmvdPutahEYS02Z5PvIs/edit">Who are you people!?</a></dt>
+                  <dt><a href="https://docs.google.com/document/d/1XRxPKb1BT3RCKURHFrNBKwOpk2AXMiyvlMQhtgs6fXo/edit">Domains</a></dt>
+                  <dt><a href="https://docs.google.com/document/d/1iDXQG3YdBaHUcwjoix9iSeel5a12VANtpf5GY1XguPA/edit">Levels</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 2 -->
+      <div class="col-md-2">
+        <!-- Collapsible Panels modified from https://bootstrapdocs.com/v3.3.2/docs/javascript/#collapse-example-accordion -->
+        <div class="panel-group" id="column2" role="tablist" aria-multiselectable="true">
+          <div id="github" class="panel panel-default">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column2">
+                GitHub
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt>
+                    <a href="https://github.com/rednovalabs">GitHub repos</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/issues?q=is%3Aopen+is%3Apr+archived%3Afalse+org%3Arednovalabs+label%3A%22PR+-+Needs+Review%22">PRs</a>
+                  </dt>
+                  <dt><a href="https://github.com/rednovalabs/fms">FMS</a></dt>
+                  <dt><a href="https://github.com/rednovalabs/storedge-up">UP</a></dt>
+                  <dt><a href="https://github.com/rednovalabs/kepler">Kepler</a></dt>
+                  <dt><a href="https://github.com/rednovalabs/storedge-analytics-embedded">Logi</a></dt>
+                  <dt><a href="https://github.com/rednovalabs/rental-center">RCv1</a></dt>
+                  <dt><a href="https://github.com/rednovalabs/data-scripts">Data Scripts</a></dt>
+                  <dt><a href="https://github.com/rednovalabs/sesc">Sales Center</a></dt>
+                  <dt><a href="https://gitlab.com/storable/storedge">GitLab</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://gitlab.com/storable/storedge/er">er</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://gitlab.com/storable/storedge/replication_consumer">replication_consumer</a></dt>
+                  <dt>&nbsp;</dt>
+                </p>
+                  <dt>
+                    <a href="https://github.com/rednovalabs/voyager">Voyager</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="http://localhost:3001/">site</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="http://localhost:3011/admin">admin</a>
+                  </dt>
+                </p>
+                  <dt>
+                    <a href="https://austin-kerr.github.io/bookmarks/">Site</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/austin-kerr/bookmarks">Bookmarks</a>
+                  </dt>
+                  <dt><a href="https://gist.github.com/austin-kerr">Gists</a></dt>
+                  <dt><a href="https://github.com/thoughtbot/til">TIL</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="styleguides" class="panel panel-default">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column2">
+                Style Guides
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt>
+                    <a href="https://google.github.io/styleguide/javaguide.html">Java</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/rubocop-hq/ruby-style-guide">Ruby</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/rubocop-hq/rails-style-guide">Rails</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://google.github.io/styleguide/htmlcssguide.html">HTML/CSS</a>
+                  </dt>
+                  <dt>
+                    <a href="http://tomdoc.org/">TomDoc</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/rubocop-hq/rspec-style-guide">RSpec</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://rubydoc.info/github/rspec/rspec-expectations/RSpec/Matchers">Rspec Matchers</a>
+                  </dt>
+                    <dt><a href="https://github.com/rednovalabs/guides/blob/master/code_style/README.md">General</a></dt>
+                    <dt><a href="https://github.com/airbnb/javascript">ES6</a></dt>
+                    <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/3159097365/React+Testing+Standards">React Standards</a></dt>
+                </p>
+                  <dt>
+                    <a href="https://ruby-doc.org/core-2.6.1/Hash.html">Hash</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://ruby-doc.org/core-2.6.1/Array.html">Array</a>
+                  </dt>
+                </p>
+                  <dt>
+                    <a href="https://ruby-doc.org/core-2.3.6/">RubyDocs</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://www.oracle.com/technetwork/java/javase/tech/index-137868.html">JavaDocs</a>
+                  </dt>
+                </p>
+                  <dt>
+                    <a href="http://doc.scalatest.org/3.0.1/#org.scalatest.FunSpec">FunSpec</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="http://www.scalatest.org/user_guide/sharing_tests">Scala Traits</a>
+                  </dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 3 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column3" role="tablist" aria-multiselectable="true">
+          <div id="resources" class="panel panel-success">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column3">
+                Resources
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://sparefoot.atlassian.net/secure/RapidBoard.jspa?rapidView=346">Rubeasts</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/jira/software/c/projects/CUBE/boards/426">Marsupials</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/secure/RapidBoard.jspa?rapidView=394">Insurance</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/secure/RapidBoard.jspa?rapidView=384&projectKey=STOR&view=planning&issueLimit=100">Backlog</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/secure/RapidBoard.jspa?rapidView=261">Bugs Board</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/secure/RapidBoard.jspa?rapidView=263">Badger</a></dt>
+                </p>
+                  <dt><a href="https://start.atlassian.com/?continue=https%3A%2F%2Fsparefoot.atlassian.net%3FatlOrigin%3DeyJwIjoiYWRtaW4iLCJpIjoiOGZhMTJkYzI1NjUzNDIyMmJmMDg2ZDViODcxNTNlNDUifQ%3D%3D">Atlassian</a></dt>
+                  <dt><a>Jenkins Deploy</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://jenkins2.rnl.io/job/FMS/job/Deploy/">FMS</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://jenkins2.rnl.io/job/UP/job/Deploy/">UP</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://jenkins2.rnl.io/job/SERC/job/Deploy/">SERC</a></dt>
+                </p>
+                  <dt><a>Snippet Runner</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://jenkins2.rnl.io/job/FMS/job/Snippet%20Runner/">FMS</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://jenkins2.rnl.io/job/Kepler/job/Snippet%20Runner/">Kepler</a></dt>
+                </p>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/2092105968/Coding+Standards">Code Standards</a></dt>
+                  <dt><a href="https://github.com/rednovalabs/fms/wiki">Wikis</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/PROD/pages/967051928/Storable+Release+Calendar">Release Calendar</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="tools" class="panel panel-success">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column3">
+                Tools
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://sparefoot.pagerduty.com/schedules#P14CAA2">PagerDuty</a></dt>
+                  <dt><a href="https://app.datadoghq.com/dashboard/ucp-zqx-zp8/storedge-fms?tpl_var_db-cluster=production-fms-aurora&tpl_var_db-primary=production-fms-aurora&tpl_var_db-replica=production-fms-aurora-replica-0&tpl_var_env=production&tpl_var_nightly-db-cluster=production-fms-nightly-processing&tpl_var_redis-primary=fms-redis-001&tpl_var_redis-secondary=fms-redis-002&tpl_var_shipping-cluster=production-shipping&from_ts=1649856903109&to_ts=1650461703109&live=true">Datadog</a></dt>
+                  <dt><a href="https://app.honeybadger.io/projects/45429/faults?sort=last_seen_desc&q=created.after%3A%27last+deploy%27%E2%80%81-is%3Aresolved%E2%80%81-is%3Aignored%E2%80%81environment%3Aproduction%E2%80%81">Honeybadger</a></dt>
+                  <dt><a href="https://storedge.grafana.net/d/000000017/fms-normies?orgId=1&refresh=30s">Grafana</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="presentations" class="panel panel-success">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column3">
+                Presentations
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://docs.google.com/presentation/d/1k3HWo8Xwm2AFQuJhgYXtVDhIcqOYpNEdijL3Lw9NAzQ/edit#slide=id.g82a189860a_0_24">Talent Review</a></dt>
+                  <dt><a href="https://docs.google.com/presentation/d/1hGtlNEZvUvnCQNvie6AXbafPKCfpEESNVUQuRQAxxp8/edit#slide=id.g5c8ee8aeee_5_0">Scrum Overview</a></dt>
+                  <dt><a href="https://docs.google.com/presentation/d/1ZgITjWOqEm6yshA2OXDajjU7YhzLxJj4ugLtHPi2dug/edit#slide=id.p">Onboarding</a></dt>
+                  <dt><a href="https://docs.google.com/presentation/d/1WhB_xSabxku8tMcBkXNHYFrqy58dejj5zi7l63keJvY/edit#slide=id.g5c8ee8aeee_5_0">Team meeting 1</a></dt>
+                  <dt><a href="https://docs.google.com/presentation/d/1Pvy_9FmlV8_nRZuA-gHBcH1fwozUCyn7_BDxN6mHHLg/edit#slide=id.gb4949ed044_0_714">Product Review 2021</a></dt>
+                </p>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/1117520040/Engineering+Town+Halls">Town Halls</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 4 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column4" role="tablist" aria-multiselectable="true">
+          <div id="environments" class="panel panel-info">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column4">
+                Environments
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt>
+                    <a href="https://fms.dev.rednovalabs.net:3000/">Local Testing</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="http://localhost:3030?companyId=4daceef3-7596-40a8-8659-1d8102bd70e8#/welcome">RC</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://api.fms.dev.rednovalabs.net:3000/docs/private.html">API</a>
+                  </dt>
+                </p>
+                  <dt><a>Dev Console</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://www.storedgefms.com/hyper/dev_console/GeneralLedgerLineItem">Prod</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://staging.storedgefms.com/hyper/dev_console/GeneralLedgerLineItem">Staging</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://store.cms.cubesmart.com/hyper/dev_console/GeneralLedgerLineItem">CubeSmart</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://store.staging.cms.cubesmart.com/hyper/dev_console/GeneralLedgerLineItem">StageSmart</a></dt>
+                </p>
+                  <dt><a>Script Runner</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://www.storedgefms.com/hyper/script_runner/new/ShipData">Prod</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://staging.storedgefms.com/hyper/script_runner/new/ShipData">Staging</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://store.cms.cubesmart.com/hyper/script_runner/new/ShipData">CubeSmart</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://store.staging.cms.cubesmart.com/hyper/script_runner/new/ShipData">StageSmart</a></dt>
+                </p>
+                  <dt><a>FMS</a></dt>
+                  <dt style="padding-left: 10px;"><a href="http://storedgefms.com/">Prod</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://staging.storedgefms.com/">Staging</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://www.storedgefms.com/company/1/facility/131/dashboard">Test</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://store.cms.cubesmart.com/">CubeSmart</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://store.staging.cms.cubesmart.com/">StageSmart</a></dt>
+                </p>
+                  <dt><a>UP</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://enterprise.storedge.com/company/80f44473-0c97-46f7-8ef3-85fed469a39e/facilities">Prod</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://staging-enterprise.storedge.com/company/80f44473-0c97-46f7-8ef3-85fed469a39e/facilities">Staging</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://corporate.cms.cubesmart.com/company/7080ac59-4366-4a77-b425-79071b0b353a/settings/fms">CubeSmart</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://corporate.staging.cms.cubesmart.com/company/7080ac59-4366-4a77-b425-79071b0b353a/settings/fms">StageSmart</a></dt>
+                </p>
+                  <dt><a>Sales Center (SECS)</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://salescenter.storedgefms.com/">Prod</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://salescenter.staging.storedgefms.com/">Staging</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://salescenter.cms.cubesmart.com/">CubeSmart</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://sparefoot.atlassian.net/wiki/spaces/SSTM/pages/1227455533">StageSmart</a></dt>
+                </p>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/1342310029/Rental+Center+Testing">Rental Center (SERC)</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://rental-center.staging.storedge.com/?companyId=80f44473-0c97-46f7-8ef3-85fed469a39e">Prod</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://rental-center.staging.storedge.com/?companyId=80f44473-0c97-46f7-8ef3-85fed469a39e">Staging</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://rental-center.cms.cubesmart.com/?companyId=7080ac59-4366-4a77-b425-79071b0b353a">CubeSmart</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://rental-center.staging.cms.cubesmart.com/?companyId=7080ac59-4366-4a77-b425-79071b0b353a">StageSmart</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 5 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column5" role="tablist" aria-multiselectable="true">
+          <div id="devops" class="panel panel-warning">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column5">
+                DevOps
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://sparefoot.atlassian.net/servicedesk/customer/portal/3/group/8">DevOps Help Desk</a></dt>
+                  <dt><a href="https://dashboard.heroku.com/apps">Heroku</a></dt>
+                  <dt><a href="https://storable.awsapps.com/start#/">AWS</a></dt>
+                  <dt><a href="https://pdk.io/systems/mine">PDK</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="devops" class="panel panel-warning">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column5">
+                React Course
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://docs.google.com/document/d/1oNHnTZFToQt73NOTEVu4GAm3wHy2wOX4T-CLu4iNCJ0/edit">syllabus</a></dt>
+                  <dt><a href="https://learning.oreilly.com/videos/react-the/9781801812603/">videos</a></dt>
+                  <dt><a href="https://github.com/academind/react-complete-guide-code">repo</a></dt>
+                  <dt><a href="https://docs.google.com/document/d/18IEGL28m0aamHD_veOo2uat4BQUgKiDRJkx92_aZs_U/edit">week1</a></dt>
+                  <dt><a href="https://docs.google.com/document/d/1kkg-WQV0tSULpREbuR7YRRvg6ywuiNTtju-JkRS3820/edit">week2</a></dt>
+                  <dt><a href="https://docs.google.com/document/d/1InebW8CLqu6rM_oTDIxp14SuqXQ9s4CvsO2VWMkQ2Rk/edit">week3</a></dt>
+                  <dt><a href="">week4</a></dt>
+                  <dt><a href="">week5</a></dt>
+                  <dt><a href="">week6</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 6 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column6" role="tablist" aria-multiselectable="true">
+          <div id="tbd1" class="panel panel-danger">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column6">
+                TBD
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a>Kepler</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://github.com/rednovalabs/kepler/blob/master/documentation/pgFunctionInfo.md">Functions</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://github.com/rednovalabs/kepler/blob/master/documentation/tableInfo.md">Table Info</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://github.com/rednovalabs/kepler/wiki/Queries">Queries</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://docs.google.com/spreadsheets/d/1maNR_tBFQU1pSIEAxYKJ_Ad1tJsFjkXaxUScVKYmDcQ/edit">Excel Sheet</a></dt>
+                  <dt style="padding-left: 10px;"><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/1449492640/Report+Documentation">Wiki Docs</a></dt>
+                </p>
+                <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/3159097365/React+Testing+Standards">UP Tests</a></dt>
+                <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/1342310029/Rental+Center+Testing">RC Testing</a></dt>
+                <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/3044081730/Nightly+Processing+-+Autopay+Code+Red">Payment Issues</a></dt>
+                  <dt><a href="https://bench.co/blog/accounting/double-entry-accounting/#a-doubleentry-accounting-cheat-sheet">Accounting</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/1982235259/Deployment+Process">Deployment Process</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/3305799694/storEDGE+Onboarding+Product+Topics">Domain Knowledge</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEHC/pages/1758528218/Storable+Access+Control">Access Control</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/SEDEV/pages/2093580369/Datashipping+2.0">Datashipping Wiki</a></dt>
+                  <dt><a href="https://sparefoot.atlassian.net/wiki/spaces/PROD/pages/2614100132/Code+Red+Comms">Code Red Comms</a></dt>
+                  <dt><a href="https://us.movember.com/team/2377189">Movember</a></dt>
+                  <dt><a href="https://www.hoopladigital.com/title/12374128">Hoopla Bookclub</a></dt>
+                  <dt><a href=""></a></dt>
+                </p>
+                  <dt><a href="https://api.storedgefms.com/docs/private.html">API - private</a></dt>
+                  <dt><a href="https://api.storedgefms.com/docs">API - public</a></dt>
+                  <dt><a href="https://www.storedgefms.com/flipper/features">Flippers</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+      .panel-heading span {
+          margin-top: -20px;
+          font-size: 15px;
+      }
+      dl {
+          margin-bottom: 0px;
+      }
+      body {
+          background-color: #3C3C3C
+      }
+      .panel-body {
+          background-color: #606060
+      }
+      a {
+          color: #99cfff
+      }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</html>
